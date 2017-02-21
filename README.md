@@ -13,4 +13,16 @@ step 3: navigate to "cd stock-monitor-task";
 
 step 3: navigate to "cd stock-frontend";
 
+step 3: type "npm install"
+
+step 3:then type "npm install lite-server --save-dev"
+
+step 3:then type  "npm install -g lite-server"
+
+step 3: navigate to "cd stock-frontend";
+
+
+
+
+
 
