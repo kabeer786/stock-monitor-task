@@ -26,7 +26,7 @@ step 3: if your browser unable to open  navigate to "stock-frontend/index.html" 
 
 
 
-Installation BaCK  end :
+Installation Back end :
 ------------------------------
 
 Step 1  navigate to "cd server" folder
@@ -38,7 +38,13 @@ step 3: then run the server by using this command  "node -server.js "
 step 3:now server is also ready
 
 
+Cheking Dynamic changes 
+-------------------------
 
+step 1: navigate to "server\test-data\"
+step 2: open "stockes.json" file in any editor 
+step 3: if you edit any changes in "currentprice"  value it will automatically refrect in front end without any refresh .
+step 4:based on that arrowmarks and color ,% of the stocks will be calculated .
 
 
 
