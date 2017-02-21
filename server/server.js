@@ -9,7 +9,7 @@ var onlyAllowedClient = "http://localhost:3000"
 var openConnections = [];
 
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", onlyAllowedClient);
+    res.header("Access-Control-Allow-Origin", '*');
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
     res.set({
