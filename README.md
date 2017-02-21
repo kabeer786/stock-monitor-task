@@ -3,7 +3,7 @@ Stock monitor POC -
 
 Description : Applicattion of Node and Angular js /Real time Stock monitoring 
 
-Installation :
+Installation Front end :
 
 Step 1 :clone or download this repository 
 
@@ -19,7 +19,7 @@ step 3:then type "npm install lite-server --save-dev"
 
 step 3:then type  "npm install -g lite-server"
 
-step 3: navigate to "cd stock-frontend";
+step 3: now just type "lite-server" autoatomtically your browser will open the index.html file 
 
 
 
