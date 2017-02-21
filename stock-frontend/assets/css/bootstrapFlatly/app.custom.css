@@ -1,0 +1,51 @@
+/*custom css for grid*/
+
+.grid-head .col-md-3 {
+    color: white;
+    background: green;
+    height: 24px;
+    font-size: 1.1em;
+	font-weight: bold;
+	padding-left: 2em;
+    height: 2em;
+    line-height: 2em;
+}
+
+
+.grid-item .col-md-3 {
+    color: #9193b8;	
+    background: #eff4fb;
+    border: 0.2px solid white;
+	padding-left: 2em;
+    height: 2em;
+    line-height: 2em;
+}
+
+.stock-name{
+	 color: #9197DA !important;
+    font-weight: bold;
+} 
+
+.jumbotron {
+    padding: 7px !important;
+	text-align:center;
+}
+
+.increment {
+	    color: green !important;
+	}
+	
+.decrement{
+	    color: red !important;
+	}
+	
+.decrement .glyphicon {
+		    transform: rotate(180deg);
+		
+	}
+.ok .glyphicon {
+		visibility:hidden;
+		
+	}
+	
+	

@@ -1,0 +1,21 @@
+<div ng-init="ctrl.initateStates()"class="row clearfix grid-head" >
+   <div class="col-md-2">
+   </div>
+   <div class="col-md-3"  ng-repeat="headeText in ctrl.staticHeadersTexts">
+      {{headeText}}
+   </div>
+</div>
+<div class="row clearfix grid-item" ng-repeat="stockTick in  ctrl.subscriptionList" >
+   <div class="col-md-2 grid-item" >
+   </div>
+   <div class="col-md-3 stock-name">
+      {{stockTick.name}} 
+   </div>
+   <div class="col-md-3">
+      {{ctrl.getLivePriceById(stockTick.id)}}
+   </div>
+   <div class="col-md-3" ng-class="stockTick.color">
+      <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+      {{ctrl.calculateProfitOrLoss(ctrl.getLivePriceById(stockTick.id),stockTick.purchasedRate,stockTick)}} %
+   </div>
+</div>
