@@ -10,7 +10,7 @@ Step 1 :clone or download this repository
 
 stel 2: git clone https://github.com/kabeer786/stock-monitor-task.git
 
-step 3: navigate to "cd stock-monitor-task";
+step 3: in node terminal -> navigate to "cd stock-monitor-task";
 
 step 3: navigate to "cd stock-frontend";
 
@@ -22,7 +22,7 @@ step 3:then type  "npm install -g lite-server"
 
 step 3: now just type "lite-server" autoatomtically your browser will open the index.html file 
 
-step 3: if your browser unable to open  navigate to "stock-frontend/index.html" in browser -Front end installation ready 
+step 3: if your browser unable to open index file   navigate to "stock-frontend/index.html" in browser -Front end installation ready 
 
 
 
@@ -42,8 +42,11 @@ Cheking Dynamic changes
 -------------------------
 
 step 1: navigate to "server\test-data\"
+
 step 2: open "stockes.json" file in any editor 
+
 step 3: if you edit any changes in "currentprice"  value it will automatically refrect in front end without any refresh .
+
 step 4:based on that arrowmarks and color ,% of the stocks will be calculated .
 
 
