@@ -6,7 +6,7 @@ Description : Applicattion of Node and Angular js /Real time Stock monitoring
 Installation Front end :
 --------------------------
 
-Step 1 :clone or download this repository 
+Step 1 :clone or download this repository from git by below command 
 
 stel 2: git clone https://github.com/kabeer786/stock-monitor-task.git
 
@@ -41,7 +41,7 @@ step 3:now server is also ready
 Cheking Dynamic changes 
 -------------------------
 
-step 1: navigate to "server\test-data\"
+step 1: open another node terminal & navigate to "server\test-data\"
 
 step 2: open "stockes.json" file in any editor 
 
